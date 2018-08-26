@@ -85,7 +85,7 @@ export default class Newlisting extends Component {
               <input
                   type="text"
                   name="title"
-                  // value={this.state.data.title}
+                  value={this.state.data.title}
                   onChange={this.handleChange}
                   className="input-box"                
                                 />
