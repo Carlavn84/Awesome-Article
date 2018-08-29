@@ -29,7 +29,7 @@ body {
 .input-box {
     height: 150px;
     width: 250px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
 }
 
 .main-container {
@@ -53,6 +53,7 @@ body {
     background: pink;
     border-radius: 15px;
     margin: 50px;
+    padding-top: 100px;
     height: 350px;
     width: 300px;
     margin-left: 10px;

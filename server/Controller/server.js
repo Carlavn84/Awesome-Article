@@ -188,5 +188,8 @@ app.put('/api/post/vote/:id', function(req, res){
 
 
 
-app.listen(8000);
-console.log('listening to port: 8000')
+
+
+app.listen(process.env.PORT || 8000, function() {
+  console.log('Express server is up and running!');
+});

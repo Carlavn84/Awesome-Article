@@ -48,22 +48,19 @@ export default class Home extends Component {
         <br/><br/>
         <div className="home-container">
             <div className="row">
-            <div className="col-xs-12 col-md-8" >
+                <div className="col-xs-12 col-md-8" >
                 <Allposts/>
-            </div>
-            <div className="col-xs-12 col-md-4">
-            <div>
-            <Newlisting /> 
-            </div>
-            <div className="main-advertising">
-            Put Your Advertsising here
-
-            </div>
-                
-
-            </div>
-       </div>       
-            </div>            
+                </div>
+            <   div className="col-xs-12 col-md-4">
+                <div>
+                <Newlisting /> 
+                </div>
+                <div className="main-advertising">
+                  <h3>Your Advertsising here</h3>
+                </div>           
+                </div>
+            </div>       
+        </div>            
        
     </div>
    ):(
