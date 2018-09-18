@@ -1,0 +1,1 @@
+The app was built with MERN. New users will required to register to be able to log in and post their articles on the website. Also, users can vote for articles they like. The article with the highest vote will be displayed first. 
